@@ -1,0 +1,12 @@
+TODO: Implement ColorManager
+TODO: Design a colour palette
+TODO: Create ListPanel for MainWindow (With Scrolling)
+TODO: Create HashButton Class (Basic Structure. Displays "Code" as it's text and has timer to its right to count down)
+TODO: Implement Function for adding HashButtons to ListPanel
+TODO: Design mainwindow to look pretty
+TODO: Implement Function for copying "Code" variable to keyboard upon HashButton clicked
+TODO: Create Window for entering Hash Details
+TODO: Modify Function for adding hashbuttons to bring up this Window
+TODO: Design window to look pretty
+TODO: Create HashGenerator Backend class and attach to hashbutton, passing in information from hashbutton window
+TODO: Implement HashGenerator to update hashbutton with correct codes from hash.
