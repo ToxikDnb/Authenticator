@@ -14,7 +14,7 @@ public class MainWindow extends Window {
         mainFrame.add(panel);
 
         JLabel titleLabel = new JLabel("Authenticator");
-        titleLabel.setFont(FontManager.getTitleFont());
+        titleLabel.setFont(FontManager.titleFont);
         titleLabel.setHorizontalAlignment(SwingConstants.CENTER);
         titleLabel.setBorder(new MatteBorder(0, 0, 2, 0, Color.darkGray));
         panel.add(titleLabel, BorderLayout.NORTH);
