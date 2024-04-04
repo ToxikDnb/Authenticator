@@ -4,6 +4,7 @@ import javax.swing.*;
 import javax.swing.border.MatteBorder;
 import java.awt.*;
 
+import com.toxikdnb.ResourceManagement.ColorManager;
 import com.toxikdnb.ResourceManagement.FontManager;
 
 public class MainWindow extends Window {
@@ -15,6 +16,7 @@ public class MainWindow extends Window {
 
         JLabel titleLabel = new JLabel("Authenticator");
         titleLabel.setFont(FontManager.titleFont);
+        titleLabel.setForeground(ColorManager.TEXT_COLOR);
         titleLabel.setHorizontalAlignment(SwingConstants.CENTER);
         titleLabel.setBorder(new MatteBorder(0, 0, 2, 0, Color.darkGray));
         panel.add(titleLabel, BorderLayout.NORTH);
