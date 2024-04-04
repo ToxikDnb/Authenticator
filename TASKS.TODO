@@ -1,5 +1,3 @@
-TODO: Implement ColorManager
-TODO: Design a colour palette
 TODO: Create ListPanel for MainWindow (With Scrolling)
 TODO: Create HashButton Class (Basic Structure. Displays "Code" as it's text and has timer to its right to count down)
 TODO: Implement Function for adding HashButtons to ListPanel
