@@ -1,7 +1,6 @@
 package com.toxikdnb.Frontend;
 
 import javax.swing.*;
-import java.awt.*;
 
 /**
  * Generic window class to create a window with a title, width, height and resizable option
