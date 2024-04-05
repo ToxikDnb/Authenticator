@@ -11,7 +11,7 @@ public class MainWindow extends Window {
 
     JPanel buttonPanel;
 
-    public MainWindow(String name, int width, int height, boolean isResizable, Image icon) {
+    public MainWindow(String name, int width, int height, boolean isResizable, ImageIcon icon) {
         super(name, width, height, isResizable, icon);
 
         JPanel panel = new JPanel(new BorderLayout());
