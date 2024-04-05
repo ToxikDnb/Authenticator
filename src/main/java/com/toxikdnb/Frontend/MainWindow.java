@@ -15,6 +15,7 @@ public class MainWindow extends Window {
         super(name, width, height, isResizable, icon);
 
         JPanel panel = new JPanel(new BorderLayout());
+        panel.setBackground(ColorManager.TEXT_COLOR_LIGHT);
         mainFrame.add(panel);
 
         JLabel titleLabel = new JLabel("Authenticator");
