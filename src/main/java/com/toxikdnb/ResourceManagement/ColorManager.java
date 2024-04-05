@@ -6,11 +6,11 @@ import java.awt.Color;
  * Manages the colors used in the application.
  */
 public class ColorManager {
-    public static final Color TEXT_COLOR = getColor("#2a2b2a");
-    public static final Color BUTTON_COLOR = getColor("#5e4955");
-    public static final Color MID_COLOUR = getColor("#c99da3");
-    public static final Color TEXT_COLOR_LIGHT = getColor("#c6ddf0");
-    public static final Color ACCENT_COLOR = getColor("#996888");
+    public static final Color TEXT_COLOR = getColor("#14110F");
+    public static final Color BUTTON_COLOR = getColor("#4C8577");
+    public static final Color MID_COLOUR = getColor("#34312D");
+    public static final Color TEXT_COLOR_LIGHT = getColor("#A6ECE0");
+    public static final Color ACCENT_COLOR = getColor("#F0424F");
 
     public static Color getColor(String rgb) {
         int r = Integer.valueOf(rgb.substring(1, 3), 16);
